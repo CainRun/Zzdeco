@@ -1,0 +1,2345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41466F01D0AEAD300395755 /* ZzdecoCaseShowViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41466EF1D0AEAD300395755 /* ZzdecoCaseShowViewModel.m */; };
+		A41466FC1D0AF10900395755 /* ZzdecoCaseInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41466F51D0AF10900395755 /* ZzdecoCaseInfoModel.m */; };
+		A41466FD1D0AF10900395755 /* ZzdecoDataListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41466F81D0AF10900395755 /* ZzdecoDataListModel.m */; };
+		A41466FE1D0AF10900395755 /* ZzdecoPageBeanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41466FB1D0AF10900395755 /* ZzdecoPageBeanModel.m */; };
+		A41467051D0B2F1F00395755 /* ZzdecoCaseResultMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41467041D0B2F1F00395755 /* ZzdecoCaseResultMapModel.m */; };
+		A41467081D0B2F4700395755 /* ZzdecoCasePageBeanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41467071D0B2F4700395755 /* ZzdecoCasePageBeanModel.m */; };
+		A414670B1D0B2F9D00395755 /* ZzdecoCaseDataListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A414670A1D0B2F9D00395755 /* ZzdecoCaseDataListModel.m */; };
+		A414670F1D0B31D100395755 /* ZzdecoCaseShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A414670E1D0B31D100395755 /* ZzdecoCaseShowModel.m */; };
+		A41D7C411D2E208000DF2000 /* ZzdecoChangeHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D7C401D2E208000DF2000 /* ZzdecoChangeHeaderModel.m */; };
+		A41D7C451D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A41D7C441D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.m */; };
+		A427EE0E1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A427EE0D1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.m */; };
+		A427EE151D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A427EE141D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.m */; };
+		A427EE181D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A427EE171D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.m */; };
+		A427EE1B1D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A427EE1A1D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.m */; };
+		A43B32491CFF331100EDE591 /* ZzdecoCaseInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B32481CFF331100EDE591 /* ZzdecoCaseInfoViewModel.m */; };
+		A45C40E11CE04DFA00EF4D6A /* CALBaseControllerTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C40E01CE04DFA00EF4D6A /* CALBaseControllerTitleView.m */; };
+		A45C40E41CE04E0800EF4D6A /* CALBaseControllerSubTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C40E31CE04E0800EF4D6A /* CALBaseControllerSubTitleView.m */; };
+		A45C41C11CE19CBD00EF4D6A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45C41C01CE19CBD00EF4D6A /* QuartzCore.framework */; };
+		A45C41C31CE19CCC00EF4D6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45C41C21CE19CCC00EF4D6A /* CoreGraphics.framework */; };
+		A460A52A1D159CC700275064 /* ZzdecoUserHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A51A1D159CC700275064 /* ZzdecoUserHeadCell.m */; };
+		A460A52B1D159CC700275064 /* ZzdecoUserIDCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A51D1D159CC700275064 /* ZzdecoUserIDCell.m */; };
+		A460A52C1D159CC700275064 /* ZzdecoUserNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5201D159CC700275064 /* ZzdecoUserNameCell.m */; };
+		A460A52D1D159CC700275064 /* ZzdecoUserPasswordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5231D159CC700275064 /* ZzdecoUserPasswordCell.m */; };
+		A460A52E1D159CC700275064 /* ZzdecoUserPhoneNumberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5261D159CC700275064 /* ZzdecoUserPhoneNumberCell.m */; };
+		A460A52F1D159CC700275064 /* ZzdecoUserSafeQuitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5291D159CC700275064 /* ZzdecoUserSafeQuitCell.m */; };
+		A460A56C1D15BBB500275064 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A460A56B1D15BBB500275064 /* libsqlite3.tbd */; };
+		A460A5701D15BBEA00275064 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A460A56F1D15BBEA00275064 /* libz.tbd */; };
+		A460A5851D1648C300275064 /* ZzdecoRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5841D1648C300275064 /* ZzdecoRegisterModel.m */; };
+		A460A5881D1648CF00275064 /* ZzdecoGetVerificationCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5871D1648CF00275064 /* ZzdecoGetVerificationCodeModel.m */; };
+		A460A58D1D1649AF00275064 /* ZzdecoRetrievePasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A58C1D1649AF00275064 /* ZzdecoRetrievePasswordModel.m */; };
+		A460A5901D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A58F1D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.m */; };
+		A460A59F1D164FC400275064 /* ZzdecoChangePhoneNumerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5941D164FC400275064 /* ZzdecoChangePhoneNumerController.m */; };
+		A460A5A01D164FC400275064 /* ZzdecoChangePhoneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A5981D164FC400275064 /* ZzdecoChangePhoneModel.m */; };
+		A460A5A11D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A59B1D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.m */; };
+		A460A5A21D164FC400275064 /* ZzdecoChangePhoneViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A460A59E1D164FC400275064 /* ZzdecoChangePhoneViewModel.m */; };
+		A4683AB01D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4683AAF1D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.m */; };
+		A4683AB31D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4683AB21D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.m */; };
+		A4683AB71D26D974001F3875 /* ZzdecoMyCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4683AB61D26D974001F3875 /* ZzdecoMyCollectionModel.m */; };
+		A46F7BEC1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B551CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.m */; };
+		A46F7BEF1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B5F1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.m */; };
+		A46F7BF01CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B621CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.m */; };
+		A46F7BF11CFEC41700CDDBBB /* ZzdecoCaseShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B661CFEC41700CDDBBB /* ZzdecoCaseShowViewController.m */; };
+		A46F7BF31CFEC41700CDDBBB /* CALHomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46F7B6B1CFEC41700CDDBBB /* CALHomePage.storyboard */; };
+		A46F7BF41CFEC41700CDDBBB /* ZzdecoScreenContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B6F1CFEC41700CDDBBB /* ZzdecoScreenContentController.m */; };
+		A46F7BF51CFEC41700CDDBBB /* ZzdecoScreenContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B731CFEC41700CDDBBB /* ZzdecoScreenContentCell.m */; };
+		A46F7BF61CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B761CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.m */; };
+		A46F7BF71CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B791CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.m */; };
+		A46F7BF81CFEC41700CDDBBB /* ZzdecoHederView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B7C1CFEC41700CDDBBB /* ZzdecoHederView.m */; };
+		A46F7BF91CFEC41700CDDBBB /* ZzdecoCheckPhoneController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B811CFEC41700CDDBBB /* ZzdecoCheckPhoneController.m */; };
+		A46F7BFA1CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B841CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.m */; };
+		A46F7BFB1CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B871CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.m */; };
+		A46F7BFC1CFEC41700CDDBBB /* ZzdecoCheckPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B8A1CFEC41700CDDBBB /* ZzdecoCheckPhoneView.m */; };
+		A46F7BFD1CFEC41700CDDBBB /* ZzdecoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B8E1CFEC41700CDDBBB /* ZzdecoLoginViewController.m */; };
+		A46F7BFE1CFEC41700CDDBBB /* ZzdecoLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B911CFEC41700CDDBBB /* ZzdecoLoginModel.m */; };
+		A46F7BFF1CFEC41700CDDBBB /* ZzdecoLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B941CFEC41700CDDBBB /* ZzdecoLoginViewModel.m */; };
+		A46F7C001CFEC41700CDDBBB /* CALLoginRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46F7B961CFEC41700CDDBBB /* CALLoginRegister.storyboard */; };
+		A46F7C011CFEC41700CDDBBB /* ZzdecoProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B9A1CFEC41700CDDBBB /* ZzdecoProtocolViewController.m */; };
+		A46F7C021CFEC41700CDDBBB /* ZzdecoRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7B9E1CFEC41700CDDBBB /* ZzdecoRegisterController.m */; };
+		A46F7C041CFEC41700CDDBBB /* ZzdecoRegisterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BA41CFEC41700CDDBBB /* ZzdecoRegisterViewModel.m */; };
+		A46F7C051CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BA81CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.m */; };
+		A46F7C061CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BAC1CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.m */; };
+		A46F7C081CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BB21CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.m */; };
+		A46F7C091CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BB71CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.m */; };
+		A46F7C0A1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BBB1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.m */; };
+		A46F7C0B1CFEC41700CDDBBB /* ZzdecoCaseInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BBF1CFEC41700CDDBBB /* ZzdecoCaseInfoView.m */; };
+		A46F7C0C1CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BC31CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.m */; };
+		A46F7C0D1CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BC61CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.m */; };
+		A46F7C0E1CFEC41700CDDBBB /* CALMyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46F7BC81CFEC41700CDDBBB /* CALMyPage.storyboard */; };
+		A46F7C121CFEC41700CDDBBB /* ZzdecoUserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F7BD81CFEC41700CDDBBB /* ZzdecoUserInfoController.m */; };
+		A4942E551CDF547D007DCA48 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4942E541CDF547D007DCA48 /* Accelerate.framework */; };
+		A4942EF71CE01FE1007DCA48 /* CALBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4942EE81CE01FE1007DCA48 /* CALBaseTableViewCell.m */; };
+		A4942EF81CE01FE1007DCA48 /* CALBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4942EEC1CE01FE1007DCA48 /* CALBaseViewController.m */; };
+		A4942EFB1CE01FE1007DCA48 /* CALBaseViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4942EF61CE01FE1007DCA48 /* CALBaseViewController.storyboard */; };
+		A497F48F1D1C207A00A40495 /* ZzdecoCaseCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A497F48E1D1C207A00A40495 /* ZzdecoCaseCollectionModel.m */; };
+		A497F4941D1C30A200A40495 /* ZzdecoMyCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A497F4931D1C30A200A40495 /* ZzdecoMyCollectionViewModel.m */; };
+		A4A8F7C21D131138004FE376 /* ZzdecoUserInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8F7C11D131138004FE376 /* ZzdecoUserInfoViewModel.m */; };
+		A4A8F7C71D131157004FE376 /* ZzdecoUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A8F7C61D131157004FE376 /* ZzdecoUserInfoModel.m */; };
+		A4AB38941D2B8880007C0A98 /* GeneralDeveloperKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB38911D2B8880007C0A98 /* GeneralDeveloperKit.framework */; };
+		A4AB38951D2B8880007C0A98 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4AB38921D2B8880007C0A98 /* IQKeyboardManager.bundle */; };
+		A4AF39621D14559300EF096E /* ZzdecoPasswordStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AF39611D14559300EF096E /* ZzdecoPasswordStateModel.m */; };
+		A4B46A411D0C5969004888F6 /* ZzdecoCaseShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B46A3D1D0C5969004888F6 /* ZzdecoCaseShowView.m */; };
+		A4B46A421D0C5969004888F6 /* ZzdecoCaseShowImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B46A401D0C5969004888F6 /* ZzdecoCaseShowImageCell.m */; };
+		A4CB24581CDA2C7000355140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB24571CDA2C7000355140 /* main.m */; };
+		A4CB24631CDA2C7000355140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CB24621CDA2C7000355140 /* Assets.xcassets */; };
+		A4CB24661CDA2C7000355140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CB24641CDA2C7000355140 /* LaunchScreen.storyboard */; };
+		A4CB24711CDA2C7000355140 /* ZzdecoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB24701CDA2C7000355140 /* ZzdecoTests.m */; };
+		A4CB247C1CDA2C7000355140 /* ZzdecoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB247B1CDA2C7000355140 /* ZzdecoUITests.m */; };
+		A4CB24911CDA2CC500355140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB248B1CDA2CC500355140 /* AppDelegate.m */; };
+		A4CB25A01CDA659800355140 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25671CDA659800355140 /* MJRefreshAutoFooter.m */; };
+		A4CB25A11CDA659800355140 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25691CDA659800355140 /* MJRefreshBackFooter.m */; };
+		A4CB25A21CDA659800355140 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB256B1CDA659800355140 /* MJRefreshComponent.m */; };
+		A4CB25A31CDA659800355140 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB256D1CDA659800355140 /* MJRefreshFooter.m */; };
+		A4CB25A41CDA659800355140 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB256F1CDA659800355140 /* MJRefreshHeader.m */; };
+		A4CB25A51CDA659800355140 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25741CDA659800355140 /* MJRefreshAutoGifFooter.m */; };
+		A4CB25A61CDA659800355140 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25761CDA659800355140 /* MJRefreshAutoNormalFooter.m */; };
+		A4CB25A71CDA659800355140 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25781CDA659800355140 /* MJRefreshAutoStateFooter.m */; };
+		A4CB25A81CDA659800355140 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB257B1CDA659800355140 /* MJRefreshBackGifFooter.m */; };
+		A4CB25A91CDA659800355140 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB257D1CDA659800355140 /* MJRefreshBackNormalFooter.m */; };
+		A4CB25AA1CDA659800355140 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB257F1CDA659800355140 /* MJRefreshBackStateFooter.m */; };
+		A4CB25AB1CDA659800355140 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25821CDA659800355140 /* MJRefreshGifHeader.m */; };
+		A4CB25AC1CDA659800355140 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25841CDA659800355140 /* MJRefreshNormalHeader.m */; };
+		A4CB25AD1CDA659800355140 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25861CDA659800355140 /* MJRefreshStateHeader.m */; };
+		A4CB25AE1CDA659800355140 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4CB25871CDA659800355140 /* MJRefresh.bundle */; };
+		A4CB25AF1CDA659800355140 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB258A1CDA659800355140 /* MJRefreshConst.m */; };
+		A4CB25B01CDA659800355140 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB258C1CDA659800355140 /* UIScrollView+MJExtension.m */; };
+		A4CB25B11CDA659800355140 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB258E1CDA659800355140 /* UIScrollView+MJRefresh.m */; };
+		A4CB25B21CDA659800355140 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CB25901CDA659800355140 /* UIView+MJExtension.m */; };
+		A4DF20831D1981D80019FC27 /* ZzdecoChangeUserNameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF20741D1981D80019FC27 /* ZzdecoChangeUserNameController.m */; };
+		A4DF20841D1981D80019FC27 /* ZzdecoChangeUserNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF20781D1981D80019FC27 /* ZzdecoChangeUserNameModel.m */; };
+		A4DF20851D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF207E1D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.m */; };
+		A4DF20861D1981D80019FC27 /* ZzdecoChangeUserNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF20821D1981D80019FC27 /* ZzdecoChangeUserNameView.m */; };
+		A4DF20921D1982950019FC27 /* ZzdecoChangePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF208A1D1982950019FC27 /* ZzdecoChangePasswordController.m */; };
+		A4DF20931D1982950019FC27 /* ZzdecoChangePasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF208E1D1982950019FC27 /* ZzdecoChangePasswordModel.m */; };
+		A4DF20941D1982950019FC27 /* ZzdecoChangePasswordViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF20911D1982950019FC27 /* ZzdecoChangePasswordViewModel.m */; };
+		A4DF20981D1986950019FC27 /* ZzdecoUserInfoResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF20971D1986950019FC27 /* ZzdecoUserInfoResultModel.m */; };
+		A4DF209C1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DF209B1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.m */; };
+		A4EBEBEF1D104AFF00E24F21 /* ZzdecoScreenContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EBEBEE1D104AFE00E24F21 /* ZzdecoScreenContentViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4CB246D1CDA2C7000355140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CB244B1CDA2C7000355140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CB24521CDA2C7000355140;
+			remoteInfo = Zzdeco;
+		};
+		A4CB24781CDA2C7000355140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CB244B1CDA2C7000355140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CB24521CDA2C7000355140;
+			remoteInfo = Zzdeco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A41466EE1D0AEAD300395755 /* ZzdecoCaseShowViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseShowViewModel.h; sourceTree = "<group>"; };
+		A41466EF1D0AEAD300395755 /* ZzdecoCaseShowViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseShowViewModel.m; sourceTree = "<group>"; };
+		A41466F41D0AF10900395755 /* ZzdecoCaseInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseInfoModel.h; sourceTree = "<group>"; };
+		A41466F51D0AF10900395755 /* ZzdecoCaseInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseInfoModel.m; sourceTree = "<group>"; };
+		A41466F71D0AF10900395755 /* ZzdecoDataListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoDataListModel.h; sourceTree = "<group>"; };
+		A41466F81D0AF10900395755 /* ZzdecoDataListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoDataListModel.m; sourceTree = "<group>"; };
+		A41466FA1D0AF10900395755 /* ZzdecoPageBeanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoPageBeanModel.h; sourceTree = "<group>"; };
+		A41466FB1D0AF10900395755 /* ZzdecoPageBeanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoPageBeanModel.m; sourceTree = "<group>"; };
+		A41467031D0B2F1F00395755 /* ZzdecoCaseResultMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseResultMapModel.h; sourceTree = "<group>"; };
+		A41467041D0B2F1F00395755 /* ZzdecoCaseResultMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseResultMapModel.m; sourceTree = "<group>"; };
+		A41467061D0B2F4700395755 /* ZzdecoCasePageBeanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCasePageBeanModel.h; sourceTree = "<group>"; };
+		A41467071D0B2F4700395755 /* ZzdecoCasePageBeanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCasePageBeanModel.m; sourceTree = "<group>"; };
+		A41467091D0B2F9D00395755 /* ZzdecoCaseDataListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseDataListModel.h; sourceTree = "<group>"; };
+		A414670A1D0B2F9D00395755 /* ZzdecoCaseDataListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseDataListModel.m; sourceTree = "<group>"; };
+		A414670D1D0B31D100395755 /* ZzdecoCaseShowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseShowModel.h; sourceTree = "<group>"; };
+		A414670E1D0B31D100395755 /* ZzdecoCaseShowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseShowModel.m; sourceTree = "<group>"; };
+		A41D7C3F1D2E208000DF2000 /* ZzdecoChangeHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangeHeaderModel.h; sourceTree = "<group>"; };
+		A41D7C401D2E208000DF2000 /* ZzdecoChangeHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangeHeaderModel.m; sourceTree = "<group>"; };
+		A41D7C431D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangeHeaderDataModel.h; sourceTree = "<group>"; };
+		A41D7C441D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangeHeaderDataModel.m; sourceTree = "<group>"; };
+		A427EE0C1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCollectionPreviewViewModel.h; sourceTree = "<group>"; };
+		A427EE0D1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCollectionPreviewViewModel.m; sourceTree = "<group>"; };
+		A427EE131D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCollectionPreviewModel.h; sourceTree = "<group>"; };
+		A427EE141D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCollectionPreviewModel.m; sourceTree = "<group>"; };
+		A427EE161D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCollectionPreviewProjectModel.h; sourceTree = "<group>"; };
+		A427EE171D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCollectionPreviewProjectModel.m; sourceTree = "<group>"; };
+		A427EE191D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCollectionPreviewResultMapModel.h; sourceTree = "<group>"; };
+		A427EE1A1D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCollectionPreviewResultMapModel.m; sourceTree = "<group>"; };
+		A43B32471CFF331100EDE591 /* ZzdecoCaseInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseInfoViewModel.h; sourceTree = "<group>"; };
+		A43B32481CFF331100EDE591 /* ZzdecoCaseInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseInfoViewModel.m; sourceTree = "<group>"; };
+		A45C40DF1CE04DFA00EF4D6A /* CALBaseControllerTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALBaseControllerTitleView.h; sourceTree = "<group>"; };
+		A45C40E01CE04DFA00EF4D6A /* CALBaseControllerTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALBaseControllerTitleView.m; sourceTree = "<group>"; };
+		A45C40E21CE04E0800EF4D6A /* CALBaseControllerSubTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALBaseControllerSubTitleView.h; sourceTree = "<group>"; };
+		A45C40E31CE04E0800EF4D6A /* CALBaseControllerSubTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALBaseControllerSubTitleView.m; sourceTree = "<group>"; };
+		A45C41C01CE19CBD00EF4D6A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A45C41C21CE19CCC00EF4D6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A460A5191D159CC700275064 /* ZzdecoUserHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserHeadCell.h; sourceTree = "<group>"; };
+		A460A51A1D159CC700275064 /* ZzdecoUserHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserHeadCell.m; sourceTree = "<group>"; };
+		A460A51C1D159CC700275064 /* ZzdecoUserIDCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserIDCell.h; sourceTree = "<group>"; };
+		A460A51D1D159CC700275064 /* ZzdecoUserIDCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserIDCell.m; sourceTree = "<group>"; };
+		A460A51F1D159CC700275064 /* ZzdecoUserNameCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserNameCell.h; sourceTree = "<group>"; };
+		A460A5201D159CC700275064 /* ZzdecoUserNameCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserNameCell.m; sourceTree = "<group>"; };
+		A460A5221D159CC700275064 /* ZzdecoUserPasswordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserPasswordCell.h; sourceTree = "<group>"; };
+		A460A5231D159CC700275064 /* ZzdecoUserPasswordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserPasswordCell.m; sourceTree = "<group>"; };
+		A460A5251D159CC700275064 /* ZzdecoUserPhoneNumberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserPhoneNumberCell.h; sourceTree = "<group>"; };
+		A460A5261D159CC700275064 /* ZzdecoUserPhoneNumberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserPhoneNumberCell.m; sourceTree = "<group>"; };
+		A460A5281D159CC700275064 /* ZzdecoUserSafeQuitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserSafeQuitCell.h; sourceTree = "<group>"; };
+		A460A5291D159CC700275064 /* ZzdecoUserSafeQuitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserSafeQuitCell.m; sourceTree = "<group>"; };
+		A460A56B1D15BBB500275064 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A460A56F1D15BBEA00275064 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A460A5831D1648C300275064 /* ZzdecoRegisterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRegisterModel.h; sourceTree = "<group>"; };
+		A460A5841D1648C300275064 /* ZzdecoRegisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRegisterModel.m; sourceTree = "<group>"; };
+		A460A5861D1648CF00275064 /* ZzdecoGetVerificationCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoGetVerificationCodeModel.h; sourceTree = "<group>"; };
+		A460A5871D1648CF00275064 /* ZzdecoGetVerificationCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoGetVerificationCodeModel.m; sourceTree = "<group>"; };
+		A460A58B1D1649AF00275064 /* ZzdecoRetrievePasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRetrievePasswordModel.h; sourceTree = "<group>"; };
+		A460A58C1D1649AF00275064 /* ZzdecoRetrievePasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRetrievePasswordModel.m; sourceTree = "<group>"; };
+		A460A58E1D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoGetChangePasswordVerificationCodeModel.h; sourceTree = "<group>"; };
+		A460A58F1D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoGetChangePasswordVerificationCodeModel.m; sourceTree = "<group>"; };
+		A460A5931D164FC400275064 /* ZzdecoChangePhoneNumerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangePhoneNumerController.h; sourceTree = "<group>"; };
+		A460A5941D164FC400275064 /* ZzdecoChangePhoneNumerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangePhoneNumerController.m; sourceTree = "<group>"; };
+		A460A5971D164FC400275064 /* ZzdecoChangePhoneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangePhoneModel.h; sourceTree = "<group>"; };
+		A460A5981D164FC400275064 /* ZzdecoChangePhoneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangePhoneModel.m; sourceTree = "<group>"; };
+		A460A59A1D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoGetChangePhoneVerificationModel.h; sourceTree = "<group>"; };
+		A460A59B1D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoGetChangePhoneVerificationModel.m; sourceTree = "<group>"; };
+		A460A59D1D164FC400275064 /* ZzdecoChangePhoneViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangePhoneViewModel.h; sourceTree = "<group>"; };
+		A460A59E1D164FC400275064 /* ZzdecoChangePhoneViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangePhoneViewModel.m; sourceTree = "<group>"; };
+		A460C15F1CF819E000BAE5A9 /* ZzdecoInternetProtocolAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZzdecoInternetProtocolAddress.h; sourceTree = "<group>"; };
+		A463FA3F1D24155E001DEB5B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A463FA401D241566001DEB5B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A4683AAE1D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoMyCollectionPageBeanModel.h; sourceTree = "<group>"; };
+		A4683AAF1D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoMyCollectionPageBeanModel.m; sourceTree = "<group>"; };
+		A4683AB11D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoMyCollectionDataListModel.h; sourceTree = "<group>"; };
+		A4683AB21D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoMyCollectionDataListModel.m; sourceTree = "<group>"; };
+		A4683AB51D26D974001F3875 /* ZzdecoMyCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoMyCollectionModel.h; sourceTree = "<group>"; };
+		A4683AB61D26D974001F3875 /* ZzdecoMyCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoMyCollectionModel.m; sourceTree = "<group>"; };
+		A46F7B541CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseInfoCollectionViewController.h; sourceTree = "<group>"; };
+		A46F7B551CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseInfoCollectionViewController.m; sourceTree = "<group>"; };
+		A46F7B5E1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseInfoCollectionViewCell.h; sourceTree = "<group>"; };
+		A46F7B5F1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseInfoCollectionViewCell.m; sourceTree = "<group>"; };
+		A46F7B611CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseInfoViewCollectionViewCell.h; sourceTree = "<group>"; };
+		A46F7B621CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseInfoViewCollectionViewCell.m; sourceTree = "<group>"; };
+		A46F7B651CFEC41700CDDBBB /* ZzdecoCaseShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseShowViewController.h; sourceTree = "<group>"; };
+		A46F7B661CFEC41700CDDBBB /* ZzdecoCaseShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseShowViewController.m; sourceTree = "<group>"; };
+		A46F7B6B1CFEC41700CDDBBB /* CALHomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CALHomePage.storyboard; sourceTree = "<group>"; };
+		A46F7B6E1CFEC41700CDDBBB /* ZzdecoScreenContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoScreenContentController.h; sourceTree = "<group>"; };
+		A46F7B6F1CFEC41700CDDBBB /* ZzdecoScreenContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoScreenContentController.m; sourceTree = "<group>"; };
+		A46F7B721CFEC41700CDDBBB /* ZzdecoScreenContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoScreenContentCell.h; sourceTree = "<group>"; };
+		A46F7B731CFEC41700CDDBBB /* ZzdecoScreenContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoScreenContentCell.m; sourceTree = "<group>"; };
+		A46F7B751CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoScreenContentLabelCollectionViewCell.h; sourceTree = "<group>"; };
+		A46F7B761CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoScreenContentLabelCollectionViewCell.m; sourceTree = "<group>"; };
+		A46F7B781CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoScreenContentTitleCell.h; sourceTree = "<group>"; };
+		A46F7B791CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoScreenContentTitleCell.m; sourceTree = "<group>"; };
+		A46F7B7B1CFEC41700CDDBBB /* ZzdecoHederView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoHederView.h; sourceTree = "<group>"; };
+		A46F7B7C1CFEC41700CDDBBB /* ZzdecoHederView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoHederView.m; sourceTree = "<group>"; };
+		A46F7B801CFEC41700CDDBBB /* ZzdecoCheckPhoneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCheckPhoneController.h; sourceTree = "<group>"; };
+		A46F7B811CFEC41700CDDBBB /* ZzdecoCheckPhoneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCheckPhoneController.m; sourceTree = "<group>"; };
+		A46F7B831CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCheckPhoneNumberModel.h; sourceTree = "<group>"; };
+		A46F7B841CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCheckPhoneNumberModel.m; sourceTree = "<group>"; };
+		A46F7B861CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCheckPhoneViewModel.h; sourceTree = "<group>"; };
+		A46F7B871CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCheckPhoneViewModel.m; sourceTree = "<group>"; };
+		A46F7B891CFEC41700CDDBBB /* ZzdecoCheckPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCheckPhoneView.h; sourceTree = "<group>"; };
+		A46F7B8A1CFEC41700CDDBBB /* ZzdecoCheckPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCheckPhoneView.m; sourceTree = "<group>"; };
+		A46F7B8D1CFEC41700CDDBBB /* ZzdecoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoLoginViewController.h; sourceTree = "<group>"; };
+		A46F7B8E1CFEC41700CDDBBB /* ZzdecoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoLoginViewController.m; sourceTree = "<group>"; };
+		A46F7B901CFEC41700CDDBBB /* ZzdecoLoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoLoginModel.h; sourceTree = "<group>"; };
+		A46F7B911CFEC41700CDDBBB /* ZzdecoLoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoLoginModel.m; sourceTree = "<group>"; };
+		A46F7B931CFEC41700CDDBBB /* ZzdecoLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoLoginViewModel.h; sourceTree = "<group>"; };
+		A46F7B941CFEC41700CDDBBB /* ZzdecoLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoLoginViewModel.m; sourceTree = "<group>"; };
+		A46F7B961CFEC41700CDDBBB /* CALLoginRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CALLoginRegister.storyboard; sourceTree = "<group>"; };
+		A46F7B991CFEC41700CDDBBB /* ZzdecoProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoProtocolViewController.h; sourceTree = "<group>"; };
+		A46F7B9A1CFEC41700CDDBBB /* ZzdecoProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoProtocolViewController.m; sourceTree = "<group>"; };
+		A46F7B9D1CFEC41700CDDBBB /* ZzdecoRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRegisterController.h; sourceTree = "<group>"; };
+		A46F7B9E1CFEC41700CDDBBB /* ZzdecoRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRegisterController.m; sourceTree = "<group>"; };
+		A46F7BA31CFEC41700CDDBBB /* ZzdecoRegisterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRegisterViewModel.h; sourceTree = "<group>"; };
+		A46F7BA41CFEC41700CDDBBB /* ZzdecoRegisterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRegisterViewModel.m; sourceTree = "<group>"; };
+		A46F7BA71CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRegisterSuccessViewController.h; sourceTree = "<group>"; };
+		A46F7BA81CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRegisterSuccessViewController.m; sourceTree = "<group>"; };
+		A46F7BAB1CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRetrievePasswordController.h; sourceTree = "<group>"; };
+		A46F7BAC1CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRetrievePasswordController.m; sourceTree = "<group>"; };
+		A46F7BB11CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoRetrievePasswordViewModel.h; sourceTree = "<group>"; };
+		A46F7BB21CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoRetrievePasswordViewModel.m; sourceTree = "<group>"; };
+		A46F7BB61CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoAccountSettingsViewController.h; sourceTree = "<group>"; };
+		A46F7BB71CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoAccountSettingsViewController.m; sourceTree = "<group>"; };
+		A46F7BBA1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCollectionPreviewController.h; sourceTree = "<group>"; };
+		A46F7BBB1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCollectionPreviewController.m; sourceTree = "<group>"; };
+		A46F7BBE1CFEC41700CDDBBB /* ZzdecoCaseInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseInfoView.h; sourceTree = "<group>"; };
+		A46F7BBF1CFEC41700CDDBBB /* ZzdecoCaseInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseInfoView.m; sourceTree = "<group>"; };
+		A46F7BC21CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoMyCollectionViewController.h; sourceTree = "<group>"; };
+		A46F7BC31CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoMyCollectionViewController.m; sourceTree = "<group>"; };
+		A46F7BC51CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoMyCollectionViewCell.h; sourceTree = "<group>"; };
+		A46F7BC61CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoMyCollectionViewCell.m; sourceTree = "<group>"; };
+		A46F7BC81CFEC41700CDDBBB /* CALMyPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CALMyPage.storyboard; sourceTree = "<group>"; };
+		A46F7BD71CFEC41700CDDBBB /* ZzdecoUserInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserInfoController.h; sourceTree = "<group>"; };
+		A46F7BD81CFEC41700CDDBBB /* ZzdecoUserInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserInfoController.m; sourceTree = "<group>"; };
+		A4942E541CDF547D007DCA48 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A4942EE71CE01FE1007DCA48 /* CALBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALBaseTableViewCell.h; sourceTree = "<group>"; };
+		A4942EE81CE01FE1007DCA48 /* CALBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALBaseTableViewCell.m; sourceTree = "<group>"; };
+		A4942EEB1CE01FE1007DCA48 /* CALBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALBaseViewController.h; sourceTree = "<group>"; };
+		A4942EEC1CE01FE1007DCA48 /* CALBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALBaseViewController.m; sourceTree = "<group>"; };
+		A4942EF61CE01FE1007DCA48 /* CALBaseViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CALBaseViewController.storyboard; sourceTree = "<group>"; };
+		A497F48D1D1C207A00A40495 /* ZzdecoCaseCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseCollectionModel.h; sourceTree = "<group>"; };
+		A497F48E1D1C207A00A40495 /* ZzdecoCaseCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseCollectionModel.m; sourceTree = "<group>"; };
+		A497F4921D1C30A200A40495 /* ZzdecoMyCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoMyCollectionViewModel.h; sourceTree = "<group>"; };
+		A497F4931D1C30A200A40495 /* ZzdecoMyCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoMyCollectionViewModel.m; sourceTree = "<group>"; };
+		A4A8F7C01D131138004FE376 /* ZzdecoUserInfoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserInfoViewModel.h; sourceTree = "<group>"; };
+		A4A8F7C11D131138004FE376 /* ZzdecoUserInfoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserInfoViewModel.m; sourceTree = "<group>"; };
+		A4A8F7C51D131157004FE376 /* ZzdecoUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserInfoModel.h; sourceTree = "<group>"; };
+		A4A8F7C61D131157004FE376 /* ZzdecoUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserInfoModel.m; sourceTree = "<group>"; };
+		A4AB38911D2B8880007C0A98 /* GeneralDeveloperKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GeneralDeveloperKit.framework; sourceTree = "<group>"; };
+		A4AB38921D2B8880007C0A98 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		A4AB38971D2B88C3007C0A98 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		A4AF39601D14559300EF096E /* ZzdecoPasswordStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoPasswordStateModel.h; sourceTree = "<group>"; };
+		A4AF39611D14559300EF096E /* ZzdecoPasswordStateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoPasswordStateModel.m; sourceTree = "<group>"; };
+		A4B46A3C1D0C5969004888F6 /* ZzdecoCaseShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseShowView.h; sourceTree = "<group>"; };
+		A4B46A3D1D0C5969004888F6 /* ZzdecoCaseShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseShowView.m; sourceTree = "<group>"; };
+		A4B46A3F1D0C5969004888F6 /* ZzdecoCaseShowImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoCaseShowImageCell.h; sourceTree = "<group>"; };
+		A4B46A401D0C5969004888F6 /* ZzdecoCaseShowImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoCaseShowImageCell.m; sourceTree = "<group>"; };
+		A4CB24531CDA2C7000355140 /* Zzdeco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zzdeco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB24571CDA2C7000355140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4CB24621CDA2C7000355140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4CB24651CDA2C7000355140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4CB24671CDA2C7000355140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CB246C1CDA2C7000355140 /* ZzdecoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZzdecoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB24701CDA2C7000355140 /* ZzdecoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZzdecoTests.m; sourceTree = "<group>"; };
+		A4CB24721CDA2C7000355140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CB24771CDA2C7000355140 /* ZzdecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZzdecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB247B1CDA2C7000355140 /* ZzdecoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUITests.m; sourceTree = "<group>"; };
+		A4CB247D1CDA2C7000355140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CB248A1CDA2CC500355140 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4CB248B1CDA2CC500355140 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4CB249B1CDA2F0500355140 /* Zzdeco-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zzdeco-PrefixHeader.pch"; sourceTree = "<group>"; };
+		A4CB25661CDA659800355140 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		A4CB25671CDA659800355140 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		A4CB25681CDA659800355140 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		A4CB25691CDA659800355140 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		A4CB256A1CDA659800355140 /* MJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
+		A4CB256B1CDA659800355140 /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
+		A4CB256C1CDA659800355140 /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
+		A4CB256D1CDA659800355140 /* MJRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooter.m; sourceTree = "<group>"; };
+		A4CB256E1CDA659800355140 /* MJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeader.h; sourceTree = "<group>"; };
+		A4CB256F1CDA659800355140 /* MJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeader.m; sourceTree = "<group>"; };
+		A4CB25731CDA659800355140 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		A4CB25741CDA659800355140 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		A4CB25751CDA659800355140 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		A4CB25761CDA659800355140 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		A4CB25771CDA659800355140 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		A4CB25781CDA659800355140 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		A4CB257A1CDA659800355140 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		A4CB257B1CDA659800355140 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		A4CB257C1CDA659800355140 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		A4CB257D1CDA659800355140 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		A4CB257E1CDA659800355140 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		A4CB257F1CDA659800355140 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		A4CB25811CDA659800355140 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		A4CB25821CDA659800355140 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		A4CB25831CDA659800355140 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		A4CB25841CDA659800355140 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		A4CB25851CDA659800355140 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		A4CB25861CDA659800355140 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		A4CB25871CDA659800355140 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		A4CB25881CDA659800355140 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		A4CB25891CDA659800355140 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		A4CB258A1CDA659800355140 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		A4CB258B1CDA659800355140 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		A4CB258C1CDA659800355140 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		A4CB258D1CDA659800355140 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		A4CB258E1CDA659800355140 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		A4CB258F1CDA659800355140 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		A4CB25901CDA659800355140 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		A4DF20731D1981D80019FC27 /* ZzdecoChangeUserNameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangeUserNameController.h; sourceTree = "<group>"; };
+		A4DF20741D1981D80019FC27 /* ZzdecoChangeUserNameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangeUserNameController.m; sourceTree = "<group>"; };
+		A4DF20771D1981D80019FC27 /* ZzdecoChangeUserNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangeUserNameModel.h; sourceTree = "<group>"; };
+		A4DF20781D1981D80019FC27 /* ZzdecoChangeUserNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangeUserNameModel.m; sourceTree = "<group>"; };
+		A4DF207D1D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangeUserNameViewModel.h; sourceTree = "<group>"; };
+		A4DF207E1D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangeUserNameViewModel.m; sourceTree = "<group>"; };
+		A4DF20811D1981D80019FC27 /* ZzdecoChangeUserNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangeUserNameView.h; sourceTree = "<group>"; };
+		A4DF20821D1981D80019FC27 /* ZzdecoChangeUserNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangeUserNameView.m; sourceTree = "<group>"; };
+		A4DF20891D1982950019FC27 /* ZzdecoChangePasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangePasswordController.h; sourceTree = "<group>"; };
+		A4DF208A1D1982950019FC27 /* ZzdecoChangePasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangePasswordController.m; sourceTree = "<group>"; };
+		A4DF208D1D1982950019FC27 /* ZzdecoChangePasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangePasswordModel.h; sourceTree = "<group>"; };
+		A4DF208E1D1982950019FC27 /* ZzdecoChangePasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangePasswordModel.m; sourceTree = "<group>"; };
+		A4DF20901D1982950019FC27 /* ZzdecoChangePasswordViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoChangePasswordViewModel.h; sourceTree = "<group>"; };
+		A4DF20911D1982950019FC27 /* ZzdecoChangePasswordViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoChangePasswordViewModel.m; sourceTree = "<group>"; };
+		A4DF20961D1986950019FC27 /* ZzdecoUserInfoResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoUserInfoResultModel.h; sourceTree = "<group>"; };
+		A4DF20971D1986950019FC27 /* ZzdecoUserInfoResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoUserInfoResultModel.m; sourceTree = "<group>"; };
+		A4DF209A1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoLoginOutMdeol.h; sourceTree = "<group>"; };
+		A4DF209B1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoLoginOutMdeol.m; sourceTree = "<group>"; };
+		A4EBEBED1D104AFE00E24F21 /* ZzdecoScreenContentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZzdecoScreenContentViewModel.h; sourceTree = "<group>"; };
+		A4EBEBEE1D104AFE00E24F21 /* ZzdecoScreenContentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZzdecoScreenContentViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4CB24501CDA2C7000355140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A460A5701D15BBEA00275064 /* libz.tbd in Frameworks */,
+				A460A56C1D15BBB500275064 /* libsqlite3.tbd in Frameworks */,
+				A45C41C31CE19CCC00EF4D6A /* CoreGraphics.framework in Frameworks */,
+				A45C41C11CE19CBD00EF4D6A /* QuartzCore.framework in Frameworks */,
+				A4942E551CDF547D007DCA48 /* Accelerate.framework in Frameworks */,
+				A4AB38941D2B8880007C0A98 /* GeneralDeveloperKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB24691CDA2C7000355140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB24741CDA2C7000355140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41466ED1D0AEAB700395755 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A41466EE1D0AEAD300395755 /* ZzdecoCaseShowViewModel.h */,
+				A41466EF1D0AEAD300395755 /* ZzdecoCaseShowViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A41466F21D0AF10900395755 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A41466F31D0AF10900395755 /* ZzdecoCaseInfo */,
+				A41466F61D0AF10900395755 /* ZzdecoDataList */,
+				A41466F91D0AF10900395755 /* ZzdecoPageBean */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A41466F31D0AF10900395755 /* ZzdecoCaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A41466F41D0AF10900395755 /* ZzdecoCaseInfoModel.h */,
+				A41466F51D0AF10900395755 /* ZzdecoCaseInfoModel.m */,
+			);
+			path = ZzdecoCaseInfo;
+			sourceTree = "<group>";
+		};
+		A41466F61D0AF10900395755 /* ZzdecoDataList */ = {
+			isa = PBXGroup;
+			children = (
+				A41466F71D0AF10900395755 /* ZzdecoDataListModel.h */,
+				A41466F81D0AF10900395755 /* ZzdecoDataListModel.m */,
+			);
+			path = ZzdecoDataList;
+			sourceTree = "<group>";
+		};
+		A41466F91D0AF10900395755 /* ZzdecoPageBean */ = {
+			isa = PBXGroup;
+			children = (
+				A41466FA1D0AF10900395755 /* ZzdecoPageBeanModel.h */,
+				A41466FB1D0AF10900395755 /* ZzdecoPageBeanModel.m */,
+			);
+			path = ZzdecoPageBean;
+			sourceTree = "<group>";
+		};
+		A41466FF1D0AF1A600395755 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A497F48C1D1C206C00A40495 /* ZzdecoCaseCollection */,
+				A414670C1D0B31C300395755 /* ZzdecoCaseShow */,
+				A41467001D0B2F0700395755 /* ZzdecoCaseDataList */,
+				A41467011D0B2F0700395755 /* ZzdecoCasePageBean */,
+				A41467021D0B2F0700395755 /* ZzdecoCaseResultMap */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A41467001D0B2F0700395755 /* ZzdecoCaseDataList */ = {
+			isa = PBXGroup;
+			children = (
+				A41467091D0B2F9D00395755 /* ZzdecoCaseDataListModel.h */,
+				A414670A1D0B2F9D00395755 /* ZzdecoCaseDataListModel.m */,
+			);
+			path = ZzdecoCaseDataList;
+			sourceTree = "<group>";
+		};
+		A41467011D0B2F0700395755 /* ZzdecoCasePageBean */ = {
+			isa = PBXGroup;
+			children = (
+				A41467061D0B2F4700395755 /* ZzdecoCasePageBeanModel.h */,
+				A41467071D0B2F4700395755 /* ZzdecoCasePageBeanModel.m */,
+			);
+			path = ZzdecoCasePageBean;
+			sourceTree = "<group>";
+		};
+		A41467021D0B2F0700395755 /* ZzdecoCaseResultMap */ = {
+			isa = PBXGroup;
+			children = (
+				A41467031D0B2F1F00395755 /* ZzdecoCaseResultMapModel.h */,
+				A41467041D0B2F1F00395755 /* ZzdecoCaseResultMapModel.m */,
+			);
+			path = ZzdecoCaseResultMap;
+			sourceTree = "<group>";
+		};
+		A414670C1D0B31C300395755 /* ZzdecoCaseShow */ = {
+			isa = PBXGroup;
+			children = (
+				A414670D1D0B31D100395755 /* ZzdecoCaseShowModel.h */,
+				A414670E1D0B31D100395755 /* ZzdecoCaseShowModel.m */,
+			);
+			path = ZzdecoCaseShow;
+			sourceTree = "<group>";
+		};
+		A41D7C3E1D2E207000DF2000 /* ZzdecoChangeHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A41D7C3F1D2E208000DF2000 /* ZzdecoChangeHeaderModel.h */,
+				A41D7C401D2E208000DF2000 /* ZzdecoChangeHeaderModel.m */,
+			);
+			path = ZzdecoChangeHeader;
+			sourceTree = "<group>";
+		};
+		A41D7C421D2E20CC00DF2000 /* ZzdecoChangeHeaderData */ = {
+			isa = PBXGroup;
+			children = (
+				A41D7C431D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.h */,
+				A41D7C441D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.m */,
+			);
+			path = ZzdecoChangeHeaderData;
+			sourceTree = "<group>";
+		};
+		A4278E121CDB05F0001EBEE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB249B1CDA2F0500355140 /* Zzdeco-PrefixHeader.pch */,
+				A4CB24621CDA2C7000355140 /* Assets.xcassets */,
+				A4CB24671CDA2C7000355140 /* Info.plist */,
+				A4CB24641CDA2C7000355140 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A427EE0B1D1FE37F00FDBA4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A427EE0C1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.h */,
+				A427EE0D1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A427EE0F1D1FF66A00FDBA4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A427EE101D1FF66A00FDBA4E /* ZzdecoCollectionPreviewModel */,
+				A427EE111D1FF66A00FDBA4E /* ZzdecoCollectionPreviewProjectModel */,
+				A427EE121D1FF66A00FDBA4E /* ZzdecoCollectionPreviewResultMapModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A427EE101D1FF66A00FDBA4E /* ZzdecoCollectionPreviewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A427EE131D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.h */,
+				A427EE141D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.m */,
+			);
+			path = ZzdecoCollectionPreviewModel;
+			sourceTree = "<group>";
+		};
+		A427EE111D1FF66A00FDBA4E /* ZzdecoCollectionPreviewProjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				A427EE161D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.h */,
+				A427EE171D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.m */,
+			);
+			path = ZzdecoCollectionPreviewProjectModel;
+			sourceTree = "<group>";
+		};
+		A427EE121D1FF66A00FDBA4E /* ZzdecoCollectionPreviewResultMapModel */ = {
+			isa = PBXGroup;
+			children = (
+				A427EE191D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.h */,
+				A427EE1A1D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.m */,
+			);
+			path = ZzdecoCollectionPreviewResultMapModel;
+			sourceTree = "<group>";
+		};
+		A43B32431CFF32F300EDE591 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A43B32471CFF331100EDE591 /* ZzdecoCaseInfoViewModel.h */,
+				A43B32481CFF331100EDE591 /* ZzdecoCaseInfoViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A45C40DD1CE04DFA00EF4D6A /* CALBaseControllerSubTitle */ = {
+			isa = PBXGroup;
+			children = (
+				A45C40E21CE04E0800EF4D6A /* CALBaseControllerSubTitleView.h */,
+				A45C40E31CE04E0800EF4D6A /* CALBaseControllerSubTitleView.m */,
+			);
+			path = CALBaseControllerSubTitle;
+			sourceTree = "<group>";
+		};
+		A45C40DE1CE04DFA00EF4D6A /* CALBaseControllerTitle */ = {
+			isa = PBXGroup;
+			children = (
+				A45C40DF1CE04DFA00EF4D6A /* CALBaseControllerTitleView.h */,
+				A45C40E01CE04DFA00EF4D6A /* CALBaseControllerTitleView.m */,
+			);
+			path = CALBaseControllerTitle;
+			sourceTree = "<group>";
+		};
+		A460A5181D159CC700275064 /* ZzdecoUserHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5191D159CC700275064 /* ZzdecoUserHeadCell.h */,
+				A460A51A1D159CC700275064 /* ZzdecoUserHeadCell.m */,
+			);
+			path = ZzdecoUserHeaderCell;
+			sourceTree = "<group>";
+		};
+		A460A51B1D159CC700275064 /* ZzdecoUserIDCell */ = {
+			isa = PBXGroup;
+			children = (
+				A460A51C1D159CC700275064 /* ZzdecoUserIDCell.h */,
+				A460A51D1D159CC700275064 /* ZzdecoUserIDCell.m */,
+			);
+			path = ZzdecoUserIDCell;
+			sourceTree = "<group>";
+		};
+		A460A51E1D159CC700275064 /* ZzdecoUserNameCell */ = {
+			isa = PBXGroup;
+			children = (
+				A460A51F1D159CC700275064 /* ZzdecoUserNameCell.h */,
+				A460A5201D159CC700275064 /* ZzdecoUserNameCell.m */,
+			);
+			path = ZzdecoUserNameCell;
+			sourceTree = "<group>";
+		};
+		A460A5211D159CC700275064 /* ZzdecoUserPasswordCell */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5221D159CC700275064 /* ZzdecoUserPasswordCell.h */,
+				A460A5231D159CC700275064 /* ZzdecoUserPasswordCell.m */,
+			);
+			path = ZzdecoUserPasswordCell;
+			sourceTree = "<group>";
+		};
+		A460A5241D159CC700275064 /* ZzdecoUserPhoneNumberCell */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5251D159CC700275064 /* ZzdecoUserPhoneNumberCell.h */,
+				A460A5261D159CC700275064 /* ZzdecoUserPhoneNumberCell.m */,
+			);
+			path = ZzdecoUserPhoneNumberCell;
+			sourceTree = "<group>";
+		};
+		A460A5271D159CC700275064 /* ZzdecoUserSafeQuitCell */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5281D159CC700275064 /* ZzdecoUserSafeQuitCell.h */,
+				A460A5291D159CC700275064 /* ZzdecoUserSafeQuitCell.m */,
+			);
+			path = ZzdecoUserSafeQuitCell;
+			sourceTree = "<group>";
+		};
+		A460A5811D1648BE00275064 /* ZzdecoGetVerificationCodeModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5861D1648CF00275064 /* ZzdecoGetVerificationCodeModel.h */,
+				A460A5871D1648CF00275064 /* ZzdecoGetVerificationCodeModel.m */,
+			);
+			path = ZzdecoGetVerificationCodeModel;
+			sourceTree = "<group>";
+		};
+		A460A5821D1648C300275064 /* ZzdecoRegisterModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5831D1648C300275064 /* ZzdecoRegisterModel.h */,
+				A460A5841D1648C300275064 /* ZzdecoRegisterModel.m */,
+			);
+			path = ZzdecoRegisterModel;
+			sourceTree = "<group>";
+		};
+		A460A5891D1649AF00275064 /* ZzdecoGetChangePasswordVerificationCodeModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A58E1D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.h */,
+				A460A58F1D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.m */,
+			);
+			path = ZzdecoGetChangePasswordVerificationCodeModel;
+			sourceTree = "<group>";
+		};
+		A460A58A1D1649AF00275064 /* ZzdecoRetrievePasswordModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A58B1D1649AF00275064 /* ZzdecoRetrievePasswordModel.h */,
+				A460A58C1D1649AF00275064 /* ZzdecoRetrievePasswordModel.m */,
+			);
+			path = ZzdecoRetrievePasswordModel;
+			sourceTree = "<group>";
+		};
+		A460A5911D164FC400275064 /* ZzdecoChangePhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5921D164FC400275064 /* Controller */,
+				A460A5951D164FC400275064 /* Model */,
+				A460A59C1D164FC400275064 /* ViewModel */,
+			);
+			path = ZzdecoChangePhoneNumber;
+			sourceTree = "<group>";
+		};
+		A460A5921D164FC400275064 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5931D164FC400275064 /* ZzdecoChangePhoneNumerController.h */,
+				A460A5941D164FC400275064 /* ZzdecoChangePhoneNumerController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A460A5951D164FC400275064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5961D164FC400275064 /* ZzdecoChangePhoneModel */,
+				A460A5991D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A460A5961D164FC400275064 /* ZzdecoChangePhoneModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5971D164FC400275064 /* ZzdecoChangePhoneModel.h */,
+				A460A5981D164FC400275064 /* ZzdecoChangePhoneModel.m */,
+			);
+			path = ZzdecoChangePhoneModel;
+			sourceTree = "<group>";
+		};
+		A460A5991D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A59A1D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.h */,
+				A460A59B1D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.m */,
+			);
+			path = ZzdecoGetChangePhoneVerificationModel;
+			sourceTree = "<group>";
+		};
+		A460A59C1D164FC400275064 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A460A59D1D164FC400275064 /* ZzdecoChangePhoneViewModel.h */,
+				A460A59E1D164FC400275064 /* ZzdecoChangePhoneViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A460C15D1CF8198200BAE5A9 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				A460C15E1CF819CC00BAE5A9 /* InternetProtocolAddress */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		A460C15E1CF819CC00BAE5A9 /* InternetProtocolAddress */ = {
+			isa = PBXGroup;
+			children = (
+				A460C15F1CF819E000BAE5A9 /* ZzdecoInternetProtocolAddress.h */,
+			);
+			path = InternetProtocolAddress;
+			sourceTree = "<group>";
+		};
+		A463FA411D24172E001DEB5B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A460A56F1D15BBEA00275064 /* libz.tbd */,
+				A460A56B1D15BBB500275064 /* libsqlite3.tbd */,
+				A45C41C21CE19CCC00EF4D6A /* CoreGraphics.framework */,
+				A45C41C01CE19CBD00EF4D6A /* QuartzCore.framework */,
+				A4942E541CDF547D007DCA48 /* Accelerate.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		A4683AAB1D26CF71001F3875 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4683AB41D26D95C001F3875 /* ZzdecoMyCollection */,
+				A4683AAC1D26CF71001F3875 /* ZzdecoDataList */,
+				A4683AAD1D26CF71001F3875 /* ZzdecoMyPageBean */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4683AAC1D26CF71001F3875 /* ZzdecoDataList */ = {
+			isa = PBXGroup;
+			children = (
+				A4683AB11D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.h */,
+				A4683AB21D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.m */,
+			);
+			path = ZzdecoDataList;
+			sourceTree = "<group>";
+		};
+		A4683AAD1D26CF71001F3875 /* ZzdecoMyPageBean */ = {
+			isa = PBXGroup;
+			children = (
+				A4683AAE1D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.h */,
+				A4683AAF1D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.m */,
+			);
+			path = ZzdecoMyPageBean;
+			sourceTree = "<group>";
+		};
+		A4683AB41D26D95C001F3875 /* ZzdecoMyCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A4683AB51D26D974001F3875 /* ZzdecoMyCollectionModel.h */,
+				A4683AB61D26D974001F3875 /* ZzdecoMyCollectionModel.m */,
+			);
+			path = ZzdecoMyCollection;
+			sourceTree = "<group>";
+		};
+		A46F7B511CFEC41700CDDBBB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B521CFEC41700CDDBBB /* ZzdecoCaseInfo */,
+				A46F7B631CFEC41700CDDBBB /* ZzdecoCaseShow */,
+				A46F7B6A1CFEC41700CDDBBB /* ZzdecoHomePageStoryboard */,
+				A46F7B6C1CFEC41700CDDBBB /* ZzdecoScreenContent */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A46F7B521CFEC41700CDDBBB /* ZzdecoCaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B531CFEC41700CDDBBB /* Controller */,
+				A41466F21D0AF10900395755 /* Models */,
+				A43B32431CFF32F300EDE591 /* ViewModel */,
+				A46F7B591CFEC41700CDDBBB /* Views */,
+			);
+			path = ZzdecoCaseInfo;
+			sourceTree = "<group>";
+		};
+		A46F7B531CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B541CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.h */,
+				A46F7B551CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B591CFEC41700CDDBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B5D1CFEC41700CDDBBB /* ZzdecoCaseInfoCell */,
+				A46F7B601CFEC41700CDDBBB /* ZzdecoCaseInfoView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A46F7B5D1CFEC41700CDDBBB /* ZzdecoCaseInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B5E1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.h */,
+				A46F7B5F1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.m */,
+			);
+			path = ZzdecoCaseInfoCell;
+			sourceTree = "<group>";
+		};
+		A46F7B601CFEC41700CDDBBB /* ZzdecoCaseInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B611CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.h */,
+				A46F7B621CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.m */,
+			);
+			path = ZzdecoCaseInfoView;
+			sourceTree = "<group>";
+		};
+		A46F7B631CFEC41700CDDBBB /* ZzdecoCaseShow */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B641CFEC41700CDDBBB /* Controller */,
+				A41466FF1D0AF1A600395755 /* Models */,
+				A41466ED1D0AEAB700395755 /* ViewModel */,
+				A4B46A3A1D0C5969004888F6 /* Views */,
+			);
+			path = ZzdecoCaseShow;
+			sourceTree = "<group>";
+		};
+		A46F7B641CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B651CFEC41700CDDBBB /* ZzdecoCaseShowViewController.h */,
+				A46F7B661CFEC41700CDDBBB /* ZzdecoCaseShowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B6A1CFEC41700CDDBBB /* ZzdecoHomePageStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B6B1CFEC41700CDDBBB /* CALHomePage.storyboard */,
+			);
+			path = ZzdecoHomePageStoryboard;
+			sourceTree = "<group>";
+		};
+		A46F7B6C1CFEC41700CDDBBB /* ZzdecoScreenContent */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B6D1CFEC41700CDDBBB /* Controller */,
+				A4EBEBEB1D1041DF00E24F21 /* ViewModels */,
+				A46F7B701CFEC41700CDDBBB /* Views */,
+			);
+			path = ZzdecoScreenContent;
+			sourceTree = "<group>";
+		};
+		A46F7B6D1CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B6E1CFEC41700CDDBBB /* ZzdecoScreenContentController.h */,
+				A46F7B6F1CFEC41700CDDBBB /* ZzdecoScreenContentController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B701CFEC41700CDDBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B711CFEC41700CDDBBB /* CALScreenContentCell */,
+				A46F7B741CFEC41700CDDBBB /* CALScreenContentLabelCollectionViewCell */,
+				A46F7B771CFEC41700CDDBBB /* CALScreenContentTitleCell */,
+				A46F7B7A1CFEC41700CDDBBB /* ZzdecoHederView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A46F7B711CFEC41700CDDBBB /* CALScreenContentCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B721CFEC41700CDDBBB /* ZzdecoScreenContentCell.h */,
+				A46F7B731CFEC41700CDDBBB /* ZzdecoScreenContentCell.m */,
+			);
+			path = CALScreenContentCell;
+			sourceTree = "<group>";
+		};
+		A46F7B741CFEC41700CDDBBB /* CALScreenContentLabelCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B751CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.h */,
+				A46F7B761CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.m */,
+			);
+			path = CALScreenContentLabelCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A46F7B771CFEC41700CDDBBB /* CALScreenContentTitleCell */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B781CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.h */,
+				A46F7B791CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.m */,
+			);
+			path = CALScreenContentTitleCell;
+			sourceTree = "<group>";
+		};
+		A46F7B7A1CFEC41700CDDBBB /* ZzdecoHederView */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B7B1CFEC41700CDDBBB /* ZzdecoHederView.h */,
+				A46F7B7C1CFEC41700CDDBBB /* ZzdecoHederView.m */,
+			);
+			path = ZzdecoHederView;
+			sourceTree = "<group>";
+		};
+		A46F7B7D1CFEC41700CDDBBB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B7E1CFEC41700CDDBBB /* ZzdecoCheckPhone */,
+				A46F7B8B1CFEC41700CDDBBB /* ZzdecoLogin */,
+				A46F7B951CFEC41700CDDBBB /* ZzdecoLoginStoryboard */,
+				A46F7B971CFEC41700CDDBBB /* ZzdecoProtocol */,
+				A46F7B9B1CFEC41700CDDBBB /* ZzdecoRegister */,
+				A46F7BA51CFEC41700CDDBBB /* ZzdecoRegisterSuccess */,
+				A46F7BA91CFEC41700CDDBBB /* ZzdecoResetPassword */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A46F7B7E1CFEC41700CDDBBB /* ZzdecoCheckPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B7F1CFEC41700CDDBBB /* Controller */,
+				A46F7B821CFEC41700CDDBBB /* Models */,
+				A46F7B851CFEC41700CDDBBB /* ViewModel */,
+				A46F7B881CFEC41700CDDBBB /* Views */,
+			);
+			path = ZzdecoCheckPhone;
+			sourceTree = "<group>";
+		};
+		A46F7B7F1CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B801CFEC41700CDDBBB /* ZzdecoCheckPhoneController.h */,
+				A46F7B811CFEC41700CDDBBB /* ZzdecoCheckPhoneController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B821CFEC41700CDDBBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B831CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.h */,
+				A46F7B841CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A46F7B851CFEC41700CDDBBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B861CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.h */,
+				A46F7B871CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A46F7B881CFEC41700CDDBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B891CFEC41700CDDBBB /* ZzdecoCheckPhoneView.h */,
+				A46F7B8A1CFEC41700CDDBBB /* ZzdecoCheckPhoneView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A46F7B8B1CFEC41700CDDBBB /* ZzdecoLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B8C1CFEC41700CDDBBB /* Controller */,
+				A46F7B8F1CFEC41700CDDBBB /* Model */,
+				A46F7B921CFEC41700CDDBBB /* ViewModel */,
+			);
+			path = ZzdecoLogin;
+			sourceTree = "<group>";
+		};
+		A46F7B8C1CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B8D1CFEC41700CDDBBB /* ZzdecoLoginViewController.h */,
+				A46F7B8E1CFEC41700CDDBBB /* ZzdecoLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B8F1CFEC41700CDDBBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B901CFEC41700CDDBBB /* ZzdecoLoginModel.h */,
+				A46F7B911CFEC41700CDDBBB /* ZzdecoLoginModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A46F7B921CFEC41700CDDBBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B931CFEC41700CDDBBB /* ZzdecoLoginViewModel.h */,
+				A46F7B941CFEC41700CDDBBB /* ZzdecoLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A46F7B951CFEC41700CDDBBB /* ZzdecoLoginStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B961CFEC41700CDDBBB /* CALLoginRegister.storyboard */,
+			);
+			path = ZzdecoLoginStoryboard;
+			sourceTree = "<group>";
+		};
+		A46F7B971CFEC41700CDDBBB /* ZzdecoProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B981CFEC41700CDDBBB /* Controller */,
+			);
+			path = ZzdecoProtocol;
+			sourceTree = "<group>";
+		};
+		A46F7B981CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B991CFEC41700CDDBBB /* ZzdecoProtocolViewController.h */,
+				A46F7B9A1CFEC41700CDDBBB /* ZzdecoProtocolViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B9B1CFEC41700CDDBBB /* ZzdecoRegister */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B9C1CFEC41700CDDBBB /* Controller */,
+				A46F7B9F1CFEC41700CDDBBB /* Models */,
+				A46F7BA21CFEC41700CDDBBB /* ViewModel */,
+			);
+			path = ZzdecoRegister;
+			sourceTree = "<group>";
+		};
+		A46F7B9C1CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7B9D1CFEC41700CDDBBB /* ZzdecoRegisterController.h */,
+				A46F7B9E1CFEC41700CDDBBB /* ZzdecoRegisterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7B9F1CFEC41700CDDBBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5811D1648BE00275064 /* ZzdecoGetVerificationCodeModel */,
+				A460A5821D1648C300275064 /* ZzdecoRegisterModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A46F7BA21CFEC41700CDDBBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BA31CFEC41700CDDBBB /* ZzdecoRegisterViewModel.h */,
+				A46F7BA41CFEC41700CDDBBB /* ZzdecoRegisterViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A46F7BA51CFEC41700CDDBBB /* ZzdecoRegisterSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BA61CFEC41700CDDBBB /* Controller */,
+			);
+			path = ZzdecoRegisterSuccess;
+			sourceTree = "<group>";
+		};
+		A46F7BA61CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BA71CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.h */,
+				A46F7BA81CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7BA91CFEC41700CDDBBB /* ZzdecoResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BAA1CFEC41700CDDBBB /* Controller */,
+				A46F7BAD1CFEC41700CDDBBB /* Model */,
+				A46F7BB01CFEC41700CDDBBB /* ViewModel */,
+			);
+			path = ZzdecoResetPassword;
+			sourceTree = "<group>";
+		};
+		A46F7BAA1CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BAB1CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.h */,
+				A46F7BAC1CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7BAD1CFEC41700CDDBBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5891D1649AF00275064 /* ZzdecoGetChangePasswordVerificationCodeModel */,
+				A460A58A1D1649AF00275064 /* ZzdecoRetrievePasswordModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A46F7BB01CFEC41700CDDBBB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BB11CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.h */,
+				A46F7BB21CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A46F7BB31CFEC41700CDDBBB /* MinePage */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BB41CFEC41700CDDBBB /* ZzdecoAccountSettings */,
+				A4DF20871D1982950019FC27 /* ZzdecoChangePassword */,
+				A460A5911D164FC400275064 /* ZzdecoChangePhoneNumber */,
+				A4DF20711D1981D80019FC27 /* ZzdecoChangeUserName */,
+				A46F7BB81CFEC41700CDDBBB /* ZzdecoCollectionPreview */,
+				A46F7BC01CFEC41700CDDBBB /* ZzdecoMyCollection */,
+				A46F7BC71CFEC41700CDDBBB /* ZzdecoMyPageStoryboard */,
+				A46F7BD51CFEC41700CDDBBB /* ZzdecoUserInfo */,
+			);
+			path = MinePage;
+			sourceTree = "<group>";
+		};
+		A46F7BB41CFEC41700CDDBBB /* ZzdecoAccountSettings */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BB51CFEC41700CDDBBB /* Controller */,
+			);
+			path = ZzdecoAccountSettings;
+			sourceTree = "<group>";
+		};
+		A46F7BB51CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BB61CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.h */,
+				A46F7BB71CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7BB81CFEC41700CDDBBB /* ZzdecoCollectionPreview */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BB91CFEC41700CDDBBB /* Controller */,
+				A427EE0F1D1FF66A00FDBA4E /* Models */,
+				A427EE0B1D1FE37F00FDBA4E /* ViewModel */,
+				A46F7BBC1CFEC41700CDDBBB /* Views */,
+			);
+			path = ZzdecoCollectionPreview;
+			sourceTree = "<group>";
+		};
+		A46F7BB91CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BBA1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.h */,
+				A46F7BBB1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7BBC1CFEC41700CDDBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BBD1CFEC41700CDDBBB /* ZzdecoCaseInfoView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A46F7BBD1CFEC41700CDDBBB /* ZzdecoCaseInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BBE1CFEC41700CDDBBB /* ZzdecoCaseInfoView.h */,
+				A46F7BBF1CFEC41700CDDBBB /* ZzdecoCaseInfoView.m */,
+			);
+			path = ZzdecoCaseInfoView;
+			sourceTree = "<group>";
+		};
+		A46F7BC01CFEC41700CDDBBB /* ZzdecoMyCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BC11CFEC41700CDDBBB /* Controller */,
+				A4683AAB1D26CF71001F3875 /* Models */,
+				A497F4901D1C307E00A40495 /* ViewModels */,
+				A46F7BC41CFEC41700CDDBBB /* Views */,
+			);
+			path = ZzdecoMyCollection;
+			sourceTree = "<group>";
+		};
+		A46F7BC11CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BC21CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.h */,
+				A46F7BC31CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7BC41CFEC41700CDDBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BC51CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.h */,
+				A46F7BC61CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A46F7BC71CFEC41700CDDBBB /* ZzdecoMyPageStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BC81CFEC41700CDDBBB /* CALMyPage.storyboard */,
+			);
+			path = ZzdecoMyPageStoryboard;
+			sourceTree = "<group>";
+		};
+		A46F7BD51CFEC41700CDDBBB /* ZzdecoUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BD61CFEC41700CDDBBB /* Controller */,
+				A4A8F7C31D131146004FE376 /* Models */,
+				A4EBEBE61D1035B200E24F21 /* ViewModels */,
+				A46F7BD91CFEC41700CDDBBB /* Views */,
+			);
+			path = ZzdecoUserInfo;
+			sourceTree = "<group>";
+		};
+		A46F7BD61CFEC41700CDDBBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A46F7BD71CFEC41700CDDBBB /* ZzdecoUserInfoController.h */,
+				A46F7BD81CFEC41700CDDBBB /* ZzdecoUserInfoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A46F7BD91CFEC41700CDDBBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A460A5181D159CC700275064 /* ZzdecoUserHeaderCell */,
+				A460A51B1D159CC700275064 /* ZzdecoUserIDCell */,
+				A460A51E1D159CC700275064 /* ZzdecoUserNameCell */,
+				A460A5211D159CC700275064 /* ZzdecoUserPasswordCell */,
+				A460A5241D159CC700275064 /* ZzdecoUserPhoneNumberCell */,
+				A460A5271D159CC700275064 /* ZzdecoUserSafeQuitCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4942EE31CE01FE1007DCA48 /* CALBaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EE41CE01FE1007DCA48 /* Controller */,
+				A4942EE51CE01FE1007DCA48 /* Views */,
+			);
+			path = CALBaseTableView;
+			sourceTree = "<group>";
+		};
+		A4942EE41CE01FE1007DCA48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4942EE51CE01FE1007DCA48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EE61CE01FE1007DCA48 /* CALBaseTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4942EE61CE01FE1007DCA48 /* CALBaseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EE71CE01FE1007DCA48 /* CALBaseTableViewCell.h */,
+				A4942EE81CE01FE1007DCA48 /* CALBaseTableViewCell.m */,
+			);
+			path = CALBaseTableViewCell;
+			sourceTree = "<group>";
+		};
+		A4942EE91CE01FE1007DCA48 /* CALBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EEA1CE01FE1007DCA48 /* Controller */,
+				A4942EED1CE01FE1007DCA48 /* Views */,
+			);
+			path = CALBaseView;
+			sourceTree = "<group>";
+		};
+		A4942EEA1CE01FE1007DCA48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EEB1CE01FE1007DCA48 /* CALBaseViewController.h */,
+				A4942EEC1CE01FE1007DCA48 /* CALBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4942EED1CE01FE1007DCA48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A45C40DD1CE04DFA00EF4D6A /* CALBaseControllerSubTitle */,
+				A45C40DE1CE04DFA00EF4D6A /* CALBaseControllerTitle */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4942EF51CE01FE1007DCA48 /* CALGeneralStoryboards */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EF61CE01FE1007DCA48 /* CALBaseViewController.storyboard */,
+			);
+			path = CALGeneralStoryboards;
+			sourceTree = "<group>";
+		};
+		A497F48C1D1C206C00A40495 /* ZzdecoCaseCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A497F48D1D1C207A00A40495 /* ZzdecoCaseCollectionModel.h */,
+				A497F48E1D1C207A00A40495 /* ZzdecoCaseCollectionModel.m */,
+			);
+			path = ZzdecoCaseCollection;
+			sourceTree = "<group>";
+		};
+		A497F4901D1C307E00A40495 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A497F4911D1C307E00A40495 /* ZzdecoMyCollectionViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A497F4911D1C307E00A40495 /* ZzdecoMyCollectionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A497F4921D1C30A200A40495 /* ZzdecoMyCollectionViewModel.h */,
+				A497F4931D1C30A200A40495 /* ZzdecoMyCollectionViewModel.m */,
+			);
+			path = ZzdecoMyCollectionViewModel;
+			sourceTree = "<group>";
+		};
+		A4A8F7BF1D131138004FE376 /* ZzdecoUserInfoViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8F7C01D131138004FE376 /* ZzdecoUserInfoViewModel.h */,
+				A4A8F7C11D131138004FE376 /* ZzdecoUserInfoViewModel.m */,
+			);
+			path = ZzdecoUserInfoViewModel;
+			sourceTree = "<group>";
+		};
+		A4A8F7C31D131146004FE376 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A41D7C421D2E20CC00DF2000 /* ZzdecoChangeHeaderData */,
+				A41D7C3E1D2E207000DF2000 /* ZzdecoChangeHeader */,
+				A4DF20991D1989E40019FC27 /* ZzdecoLoginOutMdeol */,
+				A4AF395F1D14558900EF096E /* ZzdecoPasswordStateModel */,
+				A4A8F7C41D131146004FE376 /* ZzdecoUserInfoModel */,
+				A4DF20951D19868F0019FC27 /* ZzdecoUserInfoResultModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A8F7C41D131146004FE376 /* ZzdecoUserInfoModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8F7C51D131157004FE376 /* ZzdecoUserInfoModel.h */,
+				A4A8F7C61D131157004FE376 /* ZzdecoUserInfoModel.m */,
+			);
+			path = ZzdecoUserInfoModel;
+			sourceTree = "<group>";
+		};
+		A4AF395F1D14558900EF096E /* ZzdecoPasswordStateModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF39601D14559300EF096E /* ZzdecoPasswordStateModel.h */,
+				A4AF39611D14559300EF096E /* ZzdecoPasswordStateModel.m */,
+			);
+			path = ZzdecoPasswordStateModel;
+			sourceTree = "<group>";
+		};
+		A4B46A3A1D0C5969004888F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4B46A3B1D0C5969004888F6 /* ZzdecoCaseShowBottomView */,
+				A4B46A3E1D0C5969004888F6 /* ZzdecoCaseShowImageCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4B46A3B1D0C5969004888F6 /* ZzdecoCaseShowBottomView */ = {
+			isa = PBXGroup;
+			children = (
+				A4B46A3C1D0C5969004888F6 /* ZzdecoCaseShowView.h */,
+				A4B46A3D1D0C5969004888F6 /* ZzdecoCaseShowView.m */,
+			);
+			path = ZzdecoCaseShowBottomView;
+			sourceTree = "<group>";
+		};
+		A4B46A3E1D0C5969004888F6 /* ZzdecoCaseShowImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				A4B46A3F1D0C5969004888F6 /* ZzdecoCaseShowImageCell.h */,
+				A4B46A401D0C5969004888F6 /* ZzdecoCaseShowImageCell.m */,
+			);
+			path = ZzdecoCaseShowImageCell;
+			sourceTree = "<group>";
+		};
+		A4CB244A1CDA2C7000355140 = {
+			isa = PBXGroup;
+			children = (
+				A463FA411D24172E001DEB5B /* Framework */,
+				A4CB24541CDA2C7000355140 /* Products */,
+				A4CB24551CDA2C7000355140 /* Zzdeco */,
+				A4CB246F1CDA2C7000355140 /* ZzdecoTests */,
+				A4CB247A1CDA2C7000355140 /* ZzdecoUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CB24541CDA2C7000355140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB24531CDA2C7000355140 /* Zzdeco.app */,
+				A4CB246C1CDA2C7000355140 /* ZzdecoTests.xctest */,
+				A4CB24771CDA2C7000355140 /* ZzdecoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CB24551CDA2C7000355140 /* Zzdeco */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB24891CDA2CC500355140 /* App */,
+				A4CB24C81CDA362F00355140 /* General */,
+				A46F7B511CFEC41700CDDBBB /* Home */,
+				A46F7B7D1CFEC41700CDDBBB /* Login */,
+				A46F7BB31CFEC41700CDDBBB /* MinePage */,
+				A460C15D1CF8198200BAE5A9 /* NetWorking */,
+				A4278E121CDB05F0001EBEE5 /* Resources */,
+				A4CB24561CDA2C7000355140 /* Supporting Files */,
+				A4CB24A01CDA323E00355140 /* ThirdParty */,
+			);
+			path = Zzdeco;
+			sourceTree = "<group>";
+		};
+		A4CB24561CDA2C7000355140 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB24571CDA2C7000355140 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4CB246F1CDA2C7000355140 /* ZzdecoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB24701CDA2C7000355140 /* ZzdecoTests.m */,
+				A4CB24721CDA2C7000355140 /* Info.plist */,
+			);
+			path = ZzdecoTests;
+			sourceTree = "<group>";
+		};
+		A4CB247A1CDA2C7000355140 /* ZzdecoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB247B1CDA2C7000355140 /* ZzdecoUITests.m */,
+				A4CB247D1CDA2C7000355140 /* Info.plist */,
+			);
+			path = ZzdecoUITests;
+			sourceTree = "<group>";
+		};
+		A4CB24891CDA2CC500355140 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB248A1CDA2CC500355140 /* AppDelegate.h */,
+				A4CB248B1CDA2CC500355140 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A4CB24A01CDA323E00355140 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A4AB38971D2B88C3007C0A98 /* Define.h */,
+				A4AB38911D2B8880007C0A98 /* GeneralDeveloperKit.framework */,
+				A4AB38921D2B8880007C0A98 /* IQKeyboardManager.bundle */,
+				A4CB25641CDA659800355140 /* MJRefresh */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A4CB24C81CDA362F00355140 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A4942EE31CE01FE1007DCA48 /* CALBaseTableView */,
+				A4942EE91CE01FE1007DCA48 /* CALBaseView */,
+				A4942EF51CE01FE1007DCA48 /* CALGeneralStoryboards */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		A4CB25641CDA659800355140 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB25651CDA659800355140 /* Base */,
+				A4CB25701CDA659800355140 /* Custom */,
+				A4CB25871CDA659800355140 /* MJRefresh.bundle */,
+				A4CB25881CDA659800355140 /* MJRefresh.h */,
+				A4CB25891CDA659800355140 /* MJRefreshConst.h */,
+				A4CB258A1CDA659800355140 /* MJRefreshConst.m */,
+				A4CB258B1CDA659800355140 /* UIScrollView+MJExtension.h */,
+				A4CB258C1CDA659800355140 /* UIScrollView+MJExtension.m */,
+				A4CB258D1CDA659800355140 /* UIScrollView+MJRefresh.h */,
+				A4CB258E1CDA659800355140 /* UIScrollView+MJRefresh.m */,
+				A4CB258F1CDA659800355140 /* UIView+MJExtension.h */,
+				A4CB25901CDA659800355140 /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		A4CB25651CDA659800355140 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB25661CDA659800355140 /* MJRefreshAutoFooter.h */,
+				A4CB25671CDA659800355140 /* MJRefreshAutoFooter.m */,
+				A4CB25681CDA659800355140 /* MJRefreshBackFooter.h */,
+				A4CB25691CDA659800355140 /* MJRefreshBackFooter.m */,
+				A4CB256A1CDA659800355140 /* MJRefreshComponent.h */,
+				A4CB256B1CDA659800355140 /* MJRefreshComponent.m */,
+				A4CB256C1CDA659800355140 /* MJRefreshFooter.h */,
+				A4CB256D1CDA659800355140 /* MJRefreshFooter.m */,
+				A4CB256E1CDA659800355140 /* MJRefreshHeader.h */,
+				A4CB256F1CDA659800355140 /* MJRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A4CB25701CDA659800355140 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB25711CDA659800355140 /* Footer */,
+				A4CB25801CDA659800355140 /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A4CB25711CDA659800355140 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB25721CDA659800355140 /* Auto */,
+				A4CB25791CDA659800355140 /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		A4CB25721CDA659800355140 /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB25731CDA659800355140 /* MJRefreshAutoGifFooter.h */,
+				A4CB25741CDA659800355140 /* MJRefreshAutoGifFooter.m */,
+				A4CB25751CDA659800355140 /* MJRefreshAutoNormalFooter.h */,
+				A4CB25761CDA659800355140 /* MJRefreshAutoNormalFooter.m */,
+				A4CB25771CDA659800355140 /* MJRefreshAutoStateFooter.h */,
+				A4CB25781CDA659800355140 /* MJRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		A4CB25791CDA659800355140 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB257A1CDA659800355140 /* MJRefreshBackGifFooter.h */,
+				A4CB257B1CDA659800355140 /* MJRefreshBackGifFooter.m */,
+				A4CB257C1CDA659800355140 /* MJRefreshBackNormalFooter.h */,
+				A4CB257D1CDA659800355140 /* MJRefreshBackNormalFooter.m */,
+				A4CB257E1CDA659800355140 /* MJRefreshBackStateFooter.h */,
+				A4CB257F1CDA659800355140 /* MJRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		A4CB25801CDA659800355140 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB25811CDA659800355140 /* MJRefreshGifHeader.h */,
+				A4CB25821CDA659800355140 /* MJRefreshGifHeader.m */,
+				A4CB25831CDA659800355140 /* MJRefreshNormalHeader.h */,
+				A4CB25841CDA659800355140 /* MJRefreshNormalHeader.m */,
+				A4CB25851CDA659800355140 /* MJRefreshStateHeader.h */,
+				A4CB25861CDA659800355140 /* MJRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A4DF20711D1981D80019FC27 /* ZzdecoChangeUserName */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20721D1981D80019FC27 /* Controller */,
+				A4DF20751D1981D80019FC27 /* Model */,
+				A4DF20791D1981D80019FC27 /* ViewModel */,
+				A4DF207F1D1981D80019FC27 /* Views */,
+			);
+			path = ZzdecoChangeUserName;
+			sourceTree = "<group>";
+		};
+		A4DF20721D1981D80019FC27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20731D1981D80019FC27 /* ZzdecoChangeUserNameController.h */,
+				A4DF20741D1981D80019FC27 /* ZzdecoChangeUserNameController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4DF20751D1981D80019FC27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20761D1981D80019FC27 /* ZzdecoRestUserNameModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4DF20761D1981D80019FC27 /* ZzdecoRestUserNameModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20771D1981D80019FC27 /* ZzdecoChangeUserNameModel.h */,
+				A4DF20781D1981D80019FC27 /* ZzdecoChangeUserNameModel.m */,
+			);
+			path = ZzdecoRestUserNameModel;
+			sourceTree = "<group>";
+		};
+		A4DF20791D1981D80019FC27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF207A1D1981D80019FC27 /* ZzdecoRestUserNameDelegate */,
+				A4DF207B1D1981D80019FC27 /* ZzdecoRestUserNameEventDelegate */,
+				A4DF207C1D1981D80019FC27 /* ZzdecoRestUserNameViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4DF207A1D1981D80019FC27 /* ZzdecoRestUserNameDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZzdecoRestUserNameDelegate;
+			sourceTree = "<group>";
+		};
+		A4DF207B1D1981D80019FC27 /* ZzdecoRestUserNameEventDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZzdecoRestUserNameEventDelegate;
+			sourceTree = "<group>";
+		};
+		A4DF207C1D1981D80019FC27 /* ZzdecoRestUserNameViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF207D1D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.h */,
+				A4DF207E1D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.m */,
+			);
+			path = ZzdecoRestUserNameViewModel;
+			sourceTree = "<group>";
+		};
+		A4DF207F1D1981D80019FC27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20801D1981D80019FC27 /* ZzdecoRestUserNameView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4DF20801D1981D80019FC27 /* ZzdecoRestUserNameView */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20811D1981D80019FC27 /* ZzdecoChangeUserNameView.h */,
+				A4DF20821D1981D80019FC27 /* ZzdecoChangeUserNameView.m */,
+			);
+			path = ZzdecoRestUserNameView;
+			sourceTree = "<group>";
+		};
+		A4DF20871D1982950019FC27 /* ZzdecoChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20881D1982950019FC27 /* Controller */,
+				A4DF208B1D1982950019FC27 /* Model */,
+				A4DF208F1D1982950019FC27 /* ViewModel */,
+			);
+			path = ZzdecoChangePassword;
+			sourceTree = "<group>";
+		};
+		A4DF20881D1982950019FC27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20891D1982950019FC27 /* ZzdecoChangePasswordController.h */,
+				A4DF208A1D1982950019FC27 /* ZzdecoChangePasswordController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4DF208B1D1982950019FC27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF208C1D1982950019FC27 /* ZzdecoChangePasswordModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4DF208C1D1982950019FC27 /* ZzdecoChangePasswordModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF208D1D1982950019FC27 /* ZzdecoChangePasswordModel.h */,
+				A4DF208E1D1982950019FC27 /* ZzdecoChangePasswordModel.m */,
+			);
+			path = ZzdecoChangePasswordModel;
+			sourceTree = "<group>";
+		};
+		A4DF208F1D1982950019FC27 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20901D1982950019FC27 /* ZzdecoChangePasswordViewModel.h */,
+				A4DF20911D1982950019FC27 /* ZzdecoChangePasswordViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4DF20951D19868F0019FC27 /* ZzdecoUserInfoResultModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF20961D1986950019FC27 /* ZzdecoUserInfoResultModel.h */,
+				A4DF20971D1986950019FC27 /* ZzdecoUserInfoResultModel.m */,
+			);
+			path = ZzdecoUserInfoResultModel;
+			sourceTree = "<group>";
+		};
+		A4DF20991D1989E40019FC27 /* ZzdecoLoginOutMdeol */ = {
+			isa = PBXGroup;
+			children = (
+				A4DF209A1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.h */,
+				A4DF209B1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.m */,
+			);
+			path = ZzdecoLoginOutMdeol;
+			sourceTree = "<group>";
+		};
+		A4EBEBE61D1035B200E24F21 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A4A8F7BF1D131138004FE376 /* ZzdecoUserInfoViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4EBEBEB1D1041DF00E24F21 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBEBEC1D104AE900E24F21 /* ZzdecoScreenContentViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A4EBEBEC1D104AE900E24F21 /* ZzdecoScreenContentViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBEBED1D104AFE00E24F21 /* ZzdecoScreenContentViewModel.h */,
+				A4EBEBEE1D104AFE00E24F21 /* ZzdecoScreenContentViewModel.m */,
+			);
+			path = ZzdecoScreenContentViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CB24521CDA2C7000355140 /* Zzdeco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB24801CDA2C7000355140 /* Build configuration list for PBXNativeTarget "Zzdeco" */;
+			buildPhases = (
+				A4CB244F1CDA2C7000355140 /* Sources */,
+				A4CB24501CDA2C7000355140 /* Frameworks */,
+				A4CB24511CDA2C7000355140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zzdeco;
+			productName = Zzdeco;
+			productReference = A4CB24531CDA2C7000355140 /* Zzdeco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4CB246B1CDA2C7000355140 /* ZzdecoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB24831CDA2C7000355140 /* Build configuration list for PBXNativeTarget "ZzdecoTests" */;
+			buildPhases = (
+				A4CB24681CDA2C7000355140 /* Sources */,
+				A4CB24691CDA2C7000355140 /* Frameworks */,
+				A4CB246A1CDA2C7000355140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB246E1CDA2C7000355140 /* PBXTargetDependency */,
+			);
+			name = ZzdecoTests;
+			productName = ZzdecoTests;
+			productReference = A4CB246C1CDA2C7000355140 /* ZzdecoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4CB24761CDA2C7000355140 /* ZzdecoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB24861CDA2C7000355140 /* Build configuration list for PBXNativeTarget "ZzdecoUITests" */;
+			buildPhases = (
+				A4CB24731CDA2C7000355140 /* Sources */,
+				A4CB24741CDA2C7000355140 /* Frameworks */,
+				A4CB24751CDA2C7000355140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB24791CDA2C7000355140 /* PBXTargetDependency */,
+			);
+			name = ZzdecoUITests;
+			productName = ZzdecoUITests;
+			productReference = A4CB24771CDA2C7000355140 /* ZzdecoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CB244B1CDA2C7000355140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zzdeco;
+				TargetAttributes = {
+					A4CB24521CDA2C7000355140 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3REV3UD9YN;
+					};
+					A4CB246B1CDA2C7000355140 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A4CB24521CDA2C7000355140;
+					};
+					A4CB24761CDA2C7000355140 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A4CB24521CDA2C7000355140;
+					};
+				};
+			};
+			buildConfigurationList = A4CB244E1CDA2C7000355140 /* Build configuration list for PBXProject "Zzdeco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4CB244A1CDA2C7000355140;
+			productRefGroup = A4CB24541CDA2C7000355140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CB24521CDA2C7000355140 /* Zzdeco */,
+				A4CB246B1CDA2C7000355140 /* ZzdecoTests */,
+				A4CB24761CDA2C7000355140 /* ZzdecoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4CB24511CDA2C7000355140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AB38951D2B8880007C0A98 /* IQKeyboardManager.bundle in Resources */,
+				A46F7C001CFEC41700CDDBBB /* CALLoginRegister.storyboard in Resources */,
+				A4CB24661CDA2C7000355140 /* LaunchScreen.storyboard in Resources */,
+				A46F7C0E1CFEC41700CDDBBB /* CALMyPage.storyboard in Resources */,
+				A46F7BF31CFEC41700CDDBBB /* CALHomePage.storyboard in Resources */,
+				A4942EFB1CE01FE1007DCA48 /* CALBaseViewController.storyboard in Resources */,
+				A4CB24631CDA2C7000355140 /* Assets.xcassets in Resources */,
+				A4CB25AE1CDA659800355140 /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB246A1CDA2C7000355140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB24751CDA2C7000355140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4CB244F1CDA2C7000355140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A427EE0E1D1FE38F00FDBA4E /* ZzdecoCollectionPreviewViewModel.m in Sources */,
+				A4DF20831D1981D80019FC27 /* ZzdecoChangeUserNameController.m in Sources */,
+				A41D7C451D2E20D600DF2000 /* ZzdecoChangeHeaderDataModel.m in Sources */,
+				A427EE181D1FF68000FDBA4E /* ZzdecoCollectionPreviewProjectModel.m in Sources */,
+				A460A59F1D164FC400275064 /* ZzdecoChangePhoneNumerController.m in Sources */,
+				A4CB25A81CDA659800355140 /* MJRefreshBackGifFooter.m in Sources */,
+				A4B46A421D0C5969004888F6 /* ZzdecoCaseShowImageCell.m in Sources */,
+				A46F7BFF1CFEC41700CDDBBB /* ZzdecoLoginViewModel.m in Sources */,
+				A41466FD1D0AF10900395755 /* ZzdecoDataListModel.m in Sources */,
+				A46F7BF91CFEC41700CDDBBB /* ZzdecoCheckPhoneController.m in Sources */,
+				A4942EF81CE01FE1007DCA48 /* CALBaseViewController.m in Sources */,
+				A46F7C091CFEC41700CDDBBB /* ZzdecoAccountSettingsViewController.m in Sources */,
+				A4CB25B11CDA659800355140 /* UIScrollView+MJRefresh.m in Sources */,
+				A4CB25A31CDA659800355140 /* MJRefreshFooter.m in Sources */,
+				A4DF20931D1982950019FC27 /* ZzdecoChangePasswordModel.m in Sources */,
+				A460A5A01D164FC400275064 /* ZzdecoChangePhoneModel.m in Sources */,
+				A4CB25AF1CDA659800355140 /* MJRefreshConst.m in Sources */,
+				A460A52D1D159CC700275064 /* ZzdecoUserPasswordCell.m in Sources */,
+				A46F7C021CFEC41700CDDBBB /* ZzdecoRegisterController.m in Sources */,
+				A46F7BF11CFEC41700CDDBBB /* ZzdecoCaseShowViewController.m in Sources */,
+				A46F7BFD1CFEC41700CDDBBB /* ZzdecoLoginViewController.m in Sources */,
+				A4DF20851D1981D80019FC27 /* ZzdecoChangeUserNameViewModel.m in Sources */,
+				A46F7C0C1CFEC41700CDDBBB /* ZzdecoMyCollectionViewController.m in Sources */,
+				A41466FC1D0AF10900395755 /* ZzdecoCaseInfoModel.m in Sources */,
+				A460A5A11D164FC400275064 /* ZzdecoGetChangePhoneVerificationModel.m in Sources */,
+				A4942EF71CE01FE1007DCA48 /* CALBaseTableViewCell.m in Sources */,
+				A4A8F7C21D131138004FE376 /* ZzdecoUserInfoViewModel.m in Sources */,
+				A46F7BFC1CFEC41700CDDBBB /* ZzdecoCheckPhoneView.m in Sources */,
+				A4683AB71D26D974001F3875 /* ZzdecoMyCollectionModel.m in Sources */,
+				A46F7BEF1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewCell.m in Sources */,
+				A460A5A21D164FC400275064 /* ZzdecoChangePhoneViewModel.m in Sources */,
+				A4DF20941D1982950019FC27 /* ZzdecoChangePasswordViewModel.m in Sources */,
+				A46F7BEC1CFEC41700CDDBBB /* ZzdecoCaseInfoCollectionViewController.m in Sources */,
+				A4DF20921D1982950019FC27 /* ZzdecoChangePasswordController.m in Sources */,
+				A46F7BFB1CFEC41700CDDBBB /* ZzdecoCheckPhoneViewModel.m in Sources */,
+				A4CB25B01CDA659800355140 /* UIScrollView+MJExtension.m in Sources */,
+				A4CB25A01CDA659800355140 /* MJRefreshAutoFooter.m in Sources */,
+				A4CB25A71CDA659800355140 /* MJRefreshAutoStateFooter.m in Sources */,
+				A46F7C041CFEC41700CDDBBB /* ZzdecoRegisterViewModel.m in Sources */,
+				A4CB25AA1CDA659800355140 /* MJRefreshBackStateFooter.m in Sources */,
+				A46F7BFA1CFEC41700CDDBBB /* ZzdecoCheckPhoneNumberModel.m in Sources */,
+				A4EBEBEF1D104AFF00E24F21 /* ZzdecoScreenContentViewModel.m in Sources */,
+				A4B46A411D0C5969004888F6 /* ZzdecoCaseShowView.m in Sources */,
+				A46F7BF41CFEC41700CDDBBB /* ZzdecoScreenContentController.m in Sources */,
+				A45C40E41CE04E0800EF4D6A /* CALBaseControllerSubTitleView.m in Sources */,
+				A4683AB01D26CF84001F3875 /* ZzdecoMyCollectionPageBeanModel.m in Sources */,
+				A497F48F1D1C207A00A40495 /* ZzdecoCaseCollectionModel.m in Sources */,
+				A41467081D0B2F4700395755 /* ZzdecoCasePageBeanModel.m in Sources */,
+				A46F7C0A1CFEC41700CDDBBB /* ZzdecoCollectionPreviewController.m in Sources */,
+				A46F7BF81CFEC41700CDDBBB /* ZzdecoHederView.m in Sources */,
+				A46F7C061CFEC41700CDDBBB /* ZzdecoRetrievePasswordController.m in Sources */,
+				A4CB25A91CDA659800355140 /* MJRefreshBackNormalFooter.m in Sources */,
+				A41D7C411D2E208000DF2000 /* ZzdecoChangeHeaderModel.m in Sources */,
+				A4CB25AD1CDA659800355140 /* MJRefreshStateHeader.m in Sources */,
+				A4CB25A11CDA659800355140 /* MJRefreshBackFooter.m in Sources */,
+				A41466FE1D0AF10900395755 /* ZzdecoPageBeanModel.m in Sources */,
+				A460A52A1D159CC700275064 /* ZzdecoUserHeadCell.m in Sources */,
+				A460A52B1D159CC700275064 /* ZzdecoUserIDCell.m in Sources */,
+				A460A5901D1649B900275064 /* ZzdecoGetChangePasswordVerificationCodeModel.m in Sources */,
+				A41466F01D0AEAD300395755 /* ZzdecoCaseShowViewModel.m in Sources */,
+				A4CB25A41CDA659800355140 /* MJRefreshHeader.m in Sources */,
+				A4CB24581CDA2C7000355140 /* main.m in Sources */,
+				A414670B1D0B2F9D00395755 /* ZzdecoCaseDataListModel.m in Sources */,
+				A46F7BF01CFEC41700CDDBBB /* ZzdecoCaseInfoViewCollectionViewCell.m in Sources */,
+				A4A8F7C71D131157004FE376 /* ZzdecoUserInfoModel.m in Sources */,
+				A41467051D0B2F1F00395755 /* ZzdecoCaseResultMapModel.m in Sources */,
+				A4DF209C1D1989FD0019FC27 /* ZzdecoLoginOutMdeol.m in Sources */,
+				A46F7C011CFEC41700CDDBBB /* ZzdecoProtocolViewController.m in Sources */,
+				A46F7C0D1CFEC41700CDDBBB /* ZzdecoMyCollectionViewCell.m in Sources */,
+				A4CB25A51CDA659800355140 /* MJRefreshAutoGifFooter.m in Sources */,
+				A46F7C0B1CFEC41700CDDBBB /* ZzdecoCaseInfoView.m in Sources */,
+				A460A52C1D159CC700275064 /* ZzdecoUserNameCell.m in Sources */,
+				A4683AB31D26CF90001F3875 /* ZzdecoMyCollectionDataListModel.m in Sources */,
+				A460A52F1D159CC700275064 /* ZzdecoUserSafeQuitCell.m in Sources */,
+				A46F7BF61CFEC41700CDDBBB /* ZzdecoScreenContentLabelCollectionViewCell.m in Sources */,
+				A4AF39621D14559300EF096E /* ZzdecoPasswordStateModel.m in Sources */,
+				A4DF20841D1981D80019FC27 /* ZzdecoChangeUserNameModel.m in Sources */,
+				A4CB25AB1CDA659800355140 /* MJRefreshGifHeader.m in Sources */,
+				A45C40E11CE04DFA00EF4D6A /* CALBaseControllerTitleView.m in Sources */,
+				A460A5881D1648CF00275064 /* ZzdecoGetVerificationCodeModel.m in Sources */,
+				A427EE1B1D1FF68700FDBA4E /* ZzdecoCollectionPreviewResultMapModel.m in Sources */,
+				A46F7C051CFEC41700CDDBBB /* ZzdecoRegisterSuccessViewController.m in Sources */,
+				A460A5851D1648C300275064 /* ZzdecoRegisterModel.m in Sources */,
+				A4CB25AC1CDA659800355140 /* MJRefreshNormalHeader.m in Sources */,
+				A427EE151D1FF67900FDBA4E /* ZzdecoCollectionPreviewModel.m in Sources */,
+				A4CB25B21CDA659800355140 /* UIView+MJExtension.m in Sources */,
+				A4CB25A61CDA659800355140 /* MJRefreshAutoNormalFooter.m in Sources */,
+				A460A52E1D159CC700275064 /* ZzdecoUserPhoneNumberCell.m in Sources */,
+				A414670F1D0B31D100395755 /* ZzdecoCaseShowModel.m in Sources */,
+				A497F4941D1C30A200A40495 /* ZzdecoMyCollectionViewModel.m in Sources */,
+				A4DF20981D1986950019FC27 /* ZzdecoUserInfoResultModel.m in Sources */,
+				A4DF20861D1981D80019FC27 /* ZzdecoChangeUserNameView.m in Sources */,
+				A4CB25A21CDA659800355140 /* MJRefreshComponent.m in Sources */,
+				A46F7C081CFEC41700CDDBBB /* ZzdecoRetrievePasswordViewModel.m in Sources */,
+				A46F7BFE1CFEC41700CDDBBB /* ZzdecoLoginModel.m in Sources */,
+				A4CB24911CDA2CC500355140 /* AppDelegate.m in Sources */,
+				A46F7BF51CFEC41700CDDBBB /* ZzdecoScreenContentCell.m in Sources */,
+				A46F7C121CFEC41700CDDBBB /* ZzdecoUserInfoController.m in Sources */,
+				A43B32491CFF331100EDE591 /* ZzdecoCaseInfoViewModel.m in Sources */,
+				A460A58D1D1649AF00275064 /* ZzdecoRetrievePasswordModel.m in Sources */,
+				A46F7BF71CFEC41700CDDBBB /* ZzdecoScreenContentTitleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB24681CDA2C7000355140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB24711CDA2C7000355140 /* ZzdecoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB24731CDA2C7000355140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB247C1CDA2C7000355140 /* ZzdecoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4CB246E1CDA2C7000355140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CB24521CDA2C7000355140 /* Zzdeco */;
+			targetProxy = A4CB246D1CDA2C7000355140 /* PBXContainerItemProxy */;
+		};
+		A4CB24791CDA2C7000355140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CB24521CDA2C7000355140 /* Zzdeco */;
+			targetProxy = A4CB24781CDA2C7000355140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4CB24641CDA2C7000355140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4CB24651CDA2C7000355140 /* Base */,
+				A463FA3F1D24155E001DEB5B /* zh-Hans */,
+				A463FA401D241566001DEB5B /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4CB247E1CDA2C7000355140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4CB247F1CDA2C7000355140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4CB24811CDA2C7000355140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Zzdeco Tech Co . , Ltd (3REV3UD9YN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Zzdeco Tech Co . , Ltd (3REV3UD9YN)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Zzdeco/ThirdParty",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Zzdeco/Zzdeco-PrefixHeader.pch";
+				INFOPLIST_FILE = Zzdeco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdeco.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67642178-e0ae-4ebc-8ac2-b0989105af63";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4CB24821CDA2C7000355140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Zzdeco Tech Co . , Ltd (3REV3UD9YN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Zzdeco Tech Co . , Ltd (3REV3UD9YN)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Zzdeco/ThirdParty",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Zzdeco/Zzdeco-PrefixHeader.pch";
+				INFOPLIST_FILE = Zzdeco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdeco.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67642178-e0ae-4ebc-8ac2-b0989105af63";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A4CB24841CDA2C7000355140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZzdecoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdeco.ZzdecoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zzdeco.app/Zzdeco";
+			};
+			name = Debug;
+		};
+		A4CB24851CDA2C7000355140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZzdecoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdeco.ZzdecoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zzdeco.app/Zzdeco";
+			};
+			name = Release;
+		};
+		A4CB24871CDA2C7000355140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZzdecoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdeco.ZzdecoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zzdeco;
+			};
+			name = Debug;
+		};
+		A4CB24881CDA2C7000355140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZzdecoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzdeco.ZzdecoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zzdeco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4CB244E1CDA2C7000355140 /* Build configuration list for PBXProject "Zzdeco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB247E1CDA2C7000355140 /* Debug */,
+				A4CB247F1CDA2C7000355140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB24801CDA2C7000355140 /* Build configuration list for PBXNativeTarget "Zzdeco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB24811CDA2C7000355140 /* Debug */,
+				A4CB24821CDA2C7000355140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB24831CDA2C7000355140 /* Build configuration list for PBXNativeTarget "ZzdecoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB24841CDA2C7000355140 /* Debug */,
+				A4CB24851CDA2C7000355140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB24861CDA2C7000355140 /* Build configuration list for PBXNativeTarget "ZzdecoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB24871CDA2C7000355140 /* Debug */,
+				A4CB24881CDA2C7000355140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4CB244B1CDA2C7000355140 /* Project object */;
+}
