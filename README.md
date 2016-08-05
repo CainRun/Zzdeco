@@ -11,3 +11,12 @@
 [YYModel](https://github.com/ibireme/YYModel)
 
 [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
+
+[FXBlurView](https://github.com/nicklockwood/FXBlurView)
+
+[KLSwitch](https://github.com/KieranLafferty/KLSwitch)
+
+[ZLCustomeSegmentControlView](https://github.com/lizelu/ZLCustomeSegmentControlView)
+
+[MJRefresh](https://github.com/CoderMJLee/MJRefresh)
+
